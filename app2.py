@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from tensorflow import keras
 from keras.models import load_model
 import matplotlib.pyplot as plt
 import yfinance as yf
 
 
 st.title("Stock price predictor App")
-
 stock =st.text_input("Enter the stock ID", "AAPL")
 
 from datetime import datetime
@@ -15,10 +15,9 @@ end =  datetime.now()
 start= datetime(end.year-20, end.month,end.day)
 
 aapl_data = yf.download(stock, start, end)
-
+model = load_model("Latest_stock_price_model.keras")
 st.subheader("Stock Data")
 st.write (aapl_data)
-
 
 splitting_len = int(len(aapl_data)*0.7)
 x_test = pd.DataFrame(aapl_data.Close[splitting_len:])
