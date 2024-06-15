@@ -30,6 +30,14 @@ Overview This project aims to predict stock prices using machine learning techni
 - Results:- Share the performance metrics, visualizations, and insights obtained from your model. You can include graphs showing actual vs. predicted stock prices over time.
 - Conclusion:- Stock market prediction is a fascinating field, and this project demonstrates how machine learning can be applied to forecast stock prices. Remember that stock markets are influenced by various factors, so predictions may not always be accurate. Continuously refine your model and stay informed about market trends.
 
+## 💾Project File Description
+
+
+#### Executable Files: 
+Jupyter notebook containing data summary, exploration, visualisations, modeling, model performance, evaluation and conclusion.
+
+#### Data & Resources link :-  https://drive.google.com/drive/folders/1rPQ242FpFgxUE96XuXiN-5YCa1tQT9rl?usp=drive_link
+
 ## 📈Original Close Price and MA for 250 days
 
 ![App Screenshot](https://drive.google.com/file/d/1I4DMRjexeoarTlGCAfALadgt0m9pqbRo/view?usp=drive_link)
