@@ -7,7 +7,7 @@
 Overview This project aims to predict stock prices using machine learning techniques. We’ll focus on forecasting stock prices for a publicly listed company based on historical data. In this example, we’ll use APPLE (AAPL) as our case study.
 
 
-## 💾Features
+## 💾Table Of Content
 
 - Introduction 
 - Data 
@@ -15,7 +15,7 @@ Overview This project aims to predict stock prices using machine learning techni
 - Implementation 
 - Results 
 - Conclusion
-
+## 💾Features
 - Introduction:- The stock market is a dynamic environment where stocks and other securities are bought and sold by investors. Predicting stock prices is a challenging task, but machine learning algorithms can help us analyze historical data and make informed predictions.
 
 - Data:- We’ll work with historical stock price data for AAPL, which is publicly traded on NASDAQ. The data will be provided by the Yahoo Finance as yfinance module.
@@ -49,9 +49,3 @@ Overview This project aims to predict stock prices using machine learning techni
 ## 📖Original Close Price vs Predicted Close price
 
 ![App Screenshot](http://localhost:8501/media/cf1da00e7fb9c38712a695e48b1ee0bcc1270a928b161b1b6859c8bd.png)
-## Technologies Used
-
-![Logo](https://tse2.mm.bing.net/th?id=OIP.Rt-25GZlgC6HraIqb8CO9wHaCc&pid=Api&P=0&h=100) 
-![Logo](https://pandas.pydata.org/static/img/pandas_white.svg)
-![Logo](https://pypi.org/static/images/logo-small.8998e9d1.svg)
-![Logo](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
